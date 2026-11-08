@@ -1,0 +1,4 @@
+:root{--f:#fafaf9;--t:#1c1917;--s:#57534e}
+@media (prefers-color-scheme:dark){:root{--f:#1c1917;--t:#f5f5f4;--s:#a8a29e}}
+body{font-family:system-ui,sans-serif;background:var(--f);color:var(--t);max-width:720px;margin:0 auto;padding:24px 16px;line-height:1.6}
+nav a{margin-right:16px;color:var(--s)} h1{font-size:1.6rem} footer{margin-top:40px;color:var(--s);font-size:.9rem}
